@@ -1,6 +1,6 @@
 {
     "printWidth": 80,
     "semi": false,
-    "vueIndentScriptAndStyle": true,
-    "tabWidth": 4
+    "tabWidth": 4,
+    "singleAttributePerLine": true
 }
