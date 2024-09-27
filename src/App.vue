@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    import HeaderLayout from './components/HeaderLayout.vue';
+    import BodyLayout from './components/BodyLayout.vue';
+    import FooterLayout from './components/FooterLayout.vue';
+</script>
 
 <template>
-    <div>Check</div>
+    <HeaderLayout />
+    <BodyLayout />
+    <FooterLayout />
 </template>
 
 <style scoped></style>
