@@ -19,43 +19,43 @@ function reloadPage(): void {
 </template>
 
 <style scoped lang="scss">
-    @import "../styles/variables.scss";
+@import "../styles/variables.scss";
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 7vh;
-        padding: 0px 20px;
-        background-color: #f6f6f8;
-        user-select: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  padding: 0px 20px;
+  background-color: #f6f6f8;
+  user-select: none;
 
-        .left-side {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            cursor: pointer;
+  .left-side {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
 
-            &__logo {
-                width: 30px;
-            }
-        }
-
-        .right-side {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-
-            &__github {
-                &:hover {
-                    opacity: 0.7;
-                    cursor: pointer;
-                }
-
-                img {
-                    width: 30px;
-                }
-            }
-        }
+    &__logo {
+      width: 30px;
     }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__github {
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
 </style>
