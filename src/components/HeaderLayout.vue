@@ -1,37 +1,21 @@
 <script setup lang="ts">
-    function reloadPage() {
-        window.location.reload()
-    }
+function reloadPage(): void {
+  window.location.reload();
+}
 </script>
 
 <template>
-    <header>
-        <div
-            class="left-side"
-            @click="reloadPage"
-        >
-            <img
-                class="left-side__logo"
-                src="../assets/Todo-Logo.png"
-                alt="Todo List Logo"
-            >
-            <div class="left-side__title">
-                TODO LIST
-            </div>
-        </div>
-        <div class="right-side">
-            <a
-                href="https://github.com/duttdutt"
-                target="_blank"
-                class="right-side__github"
-            >
-                <img
-                    src="../assets/GitHub-Logo.svg"
-                    alt="GitHub Logo"
-                >
-            </a>
-        </div>
-    </header>
+  <header>
+    <div class="left-side" @click="reloadPage">
+      <img class="left-side__logo" src="../assets/Todo-Logo.png" alt="Todo List Logo" />
+      <div class="left-side__title">TODO LIST</div>
+    </div>
+    <div class="right-side">
+      <a href="https://github.com/duttdutt" target="_blank" class="right-side__github">
+        <img src="../assets/GitHub-Logo.svg" alt="GitHub Logo" />
+      </a>
+    </div>
+  </header>
 </template>
 
 <style scoped lang="scss">
