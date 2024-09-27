@@ -7,6 +7,8 @@
         "dev": "vite --open",
         "build": "vue-tsc -b && vite build",
         "preview": "vite preview",
+        "build-css": "sass src/styles/main.scss dist/styles.css",
+        "watch-css": "sass --watch src/styles/main.scss:dist/styles.css",
         "lint": "eslint 'src/**/*.{ts,vue}'",
         "lint:fix": "eslint 'src/**/*.{ts,vue}' --fix",
         "format": "prettier . --write"
