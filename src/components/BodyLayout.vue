@@ -1,9 +1,11 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-    <div>Body</div>
+  <main>Body</main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+main {
+  height: 86vh;
+}
+</style>
